@@ -1,0 +1,22 @@
+:host {
+    margin-top: 1rem;
+    display: block;
+    }
+
+/*mat-expansion-panel,
+mat-expansion-panel-header{
+       background-color:  #4169E1;
+       color: #FFF
+    }
+   */
+
+   mat-panel-description{
+    background-color: #FFF;
+    size: 250px
+   }
+
+   /* mat-form-field,
+    input {
+    width: 100%;
+    border-color: rgba(255, 255, 255, 0)
+}*/

@@ -1,0 +1,12 @@
+<mat-accordion *ngIf="recomendacoes.length > 0">
+    <mat-expansion-panel *ngFor="let recomendacao of recomendacoes">
+    <mat-expansion-panel-header>recomendação</mat-expansion-panel-header>
+      <mat-panel-description>
+        <p>{{recomendacao.texto}}</p>
+      </mat-panel-description>
+    </mat-expansion-panel>
+    </mat-accordion>
+    
+    <p class="mat-body-strong" style="text-align: center;" *ngIf="recomendacoes.length <= 0">
+        o que você sugere?
+    </p>
